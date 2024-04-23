@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #ddd; /* Adjust background color */
+}
+
+.watch-face {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+    font-size: 4em; /* Adjust time font size */
+    text-shadow: 0px 10px 10px #234D3C;
+}
+
+.digital-clock {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #333; /* Adjust button color */
+    color: #fff; /* Adjust button text color */
+    cursor: pointer;
+}
